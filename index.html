@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>ITR India | Premium Income Tax Filing Support</title>
-  <meta name="description" content="Accurate, secure, and hassle-free Income Tax Return (ITR) filing support for salaried professionals, stock investors, and HNIs in India.">
+  <meta name="description" content="Accurate, secure, and hassle-free Income Tax Return (ITR) filing support for salaried professionals, stock investors, business owners, and HNIs in India.">
 
   <script src="https://cdn.tailwindcss.com"></script>
 
@@ -73,7 +73,7 @@
         </h1>
 
         <p class="text-base sm:text-lg lg:text-xl text-gray-600 leading-relaxed mb-8 max-w-xl">
-          Accurate, personalized, and hassle-free ITR filing support for salaried professionals, stock investors, HNIs, and individuals with complex tax situations.
+          Accurate, personalized, and hassle-free ITR filing support for salaried professionals, stock investors, business entities, and complex portfolios.
         </p>
 
         <div class="flex flex-col sm:flex-row gap-4 mb-10">
@@ -119,7 +119,7 @@
               <span class="font-bold text-gray-900">₹1,000</span>
             </div>
             <div class="flex justify-between items-center p-4 bg-blue-50/50 rounded-xl border border-blue-100">
-              <span class="font-semibold text-blue-900">Capital Gains Filing</span>
+              <span class="font-semibold text-blue-700">Capital Gains Filing</span>
               <span class="font-bold text-blue-700">₹2,000</span>
             </div>
             <div class="flex justify-between items-center p-4 bg-gray-50 rounded-xl">
@@ -127,8 +127,8 @@
               <span class="font-bold text-gray-900">₹3,500+</span>
             </div>
             <div class="flex justify-between items-center p-4 bg-gray-50 rounded-xl">
-              <span class="font-medium text-gray-700">Derivative Income (F&O)</span>
-              <span class="font-bold text-gray-900">₹5,000+</span>
+              <span class="font-medium text-gray-700">Business & Trading Income</span>
+              <span class="font-bold text-gray-900">₹3,500+</span>
             </div>
           </div>
         </div>
@@ -172,12 +172,24 @@
 
 <section id="pricing" class="py-16 lg:py-24 bg-gray-50 border-y border-gray-100">
   <div class="max-w-7xl mx-auto px-4 sm:px-6">
-    <div class="text-center max-w-3xl mx-auto mb-16">
+    
+    <div class="text-center max-w-3xl mx-auto mb-12">
       <h2 class="text-3xl sm:text-4xl font-bold text-gray-900 mb-4 tracking-tight">Simple & Transparent Pricing</h2>
-      <p class="text-lg sm:text-xl text-gray-600">Premium tax filing assistance structured cleanly around your exact compliance scope.</p>
+      <p class="text-lg sm:text-xl text-gray-600">Select your profile category below to view optimized premium tax plans.</p>
     </div>
 
-    <div class="grid lg:grid-cols-3 gap-8 items-stretch">
+    <div class="flex justify-center mb-12">
+      <div class="bg-gray-200/70 p-1.5 rounded-2xl inline-flex gap-2 border border-gray-200">
+        <button onclick="switchTab('tab-salaried')" id="btn-tab-salaried" class="tab-btn px-4 py-2.5 sm:px-6 font-bold text-sm rounded-xl transition duration-200 bg-blue-600 text-white shadow-sm">
+          Salaried & Investors
+        </button>
+        <button onclick="switchTab('tab-business')" id="btn-tab-business" class="tab-btn px-4 py-2.5 sm:px-6 font-semibold text-sm rounded-xl transition duration-200 text-gray-600 hover:text-gray-900">
+          Business & Trading
+        </button>
+      </div>
+    </div>
+
+    <div id="tab-salaried" class="tab-content grid lg:grid-cols-3 gap-8 items-stretch">
       <div class="bg-white rounded-3xl border border-gray-100 shadow-sm p-8 flex flex-col justify-between transition hover:shadow-md">
         <div>
           <h3 class="text-xl font-bold text-gray-900 mb-2">Basic ITR</h3>
@@ -186,35 +198,29 @@
           <ul class="space-y-3.5 text-sm text-gray-600 mb-8 border-t border-gray-100 pt-6">
             <li class="flex items-center gap-2"><span class="text-blue-600 font-bold">✓</span> Salary & Rental Income</li>
             <li class="flex items-center gap-2"><span class="text-blue-600 font-bold">✓</span> Old vs New Regime Comparison</li>
-            <li class="flex items-center gap-2"><span class="text-blue-600 font-bold">✓</span> Form 16 Verification</li>
             <li class="flex items-center gap-2"><span class="text-blue-600 font-bold">✓</span> Standard ITR-1 Filing</li>
           </ul>
         </div>
         <a href="https://wa.me/919873292778?text=Hi%20ITR%20India,%20I%20want%20to%20file%20under%20the%20Basic%20Salaried%20Plan%20(Rs.%201000)."
-           target="_blank"
-           class="block text-center bg-gray-900 hover:bg-gray-800 text-white py-3.5 rounded-xl font-semibold transition">
+           target="_blank" class="block text-center bg-gray-900 hover:bg-gray-800 text-white py-3.5 rounded-xl font-semibold transition">
           Get Started
         </a>
       </div>
 
       <div class="bg-white rounded-3xl ring-4 ring-blue-600 shadow-xl p-8 flex flex-col justify-between relative transform lg:-translate-y-2">
-        <div class="absolute -top-4 left-1/2 transform -translate-x-1/2 bg-blue-600 text-white px-4 py-1 rounded-full text-xs font-bold uppercase tracking-widest shadow-md">
-          Most Popular
-        </div>
+        <div class="absolute -top-4 left-1/2 transform -translate-x-1/2 bg-blue-600 text-white px-4 py-1 rounded-full text-xs font-bold uppercase tracking-widest shadow-md">Most Popular</div>
         <div class="pt-2">
           <h3 class="text-xl font-bold text-gray-900 mb-2">Capital Gains</h3>
           <p class="text-gray-500 text-sm mb-6">For retail equity investors, mutual fund holders, and property sales.</p>
           <div class="text-4xl font-black text-blue-600 mb-6">₹2,000</div>
           <ul class="space-y-3.5 text-sm text-gray-600 mb-8 border-t border-gray-100 pt-6">
             <li class="flex items-center gap-2"><span class="text-blue-600 font-bold">✓</span> Stock Market & Mutual Funds</li>
-            <li class="flex items-center gap-2"><span class="text-blue-600 font-bold">✓</span> Property Sale Computations</li>
-            <li class="flex items-center gap-2"><span class="text-blue-600 font-bold">✓</span> Set-off & Carry Forward of Losses</li>
+            <li class="flex items-center gap-2"><span class="text-blue-600 font-bold">✓</span> Set-off & Carry Forward Losses</li>
             <li class="flex items-center gap-2"><span class="text-blue-600 font-bold">✓</span> Comprehensive ITR-2 Filing</li>
           </ul>
         </div>
         <a href="https://wa.me/919873292778?text=Hi%20ITR%20India,%20I%20want%20to%20file%20under%20the%20Capital%20Gains%20Plan%20(Rs.%202000)."
-           target="_blank"
-           class="block text-center bg-blue-600 hover:bg-blue-700 text-white py-3.5 rounded-xl font-bold transition shadow-lg shadow-blue-200">
+           target="_blank" class="block text-center bg-blue-600 hover:bg-blue-700 text-white py-3.5 rounded-xl font-bold transition shadow-lg shadow-blue-200">
           Start Filing
         </a>
       </div>
@@ -222,22 +228,57 @@
       <div class="bg-white rounded-3xl border border-gray-100 shadow-sm p-8 flex flex-col justify-between transition hover:shadow-md">
         <div>
           <h3 class="text-xl font-bold text-gray-900 mb-2">Complex Filing</h3>
-          <p class="text-gray-500 text-sm mb-6">For global stock structures, derivatives (F&O), and advanced assets.</p>
+          <p class="text-gray-500 text-sm mb-6">For global stock structures, foreign assets, and executive setups.</p>
           <div class="text-4xl font-black text-gray-900 mb-6">₹3,500<span class="text-lg font-normal text-gray-400">+</span></div>
           <ul class="space-y-3.5 text-sm text-gray-600 mb-8 border-t border-gray-100 pt-6">
-            <li class="flex items-center gap-2"><span class="text-blue-600 font-bold">✓</span> Foreign Stock Schedules (RSUs / ESPPs)</li>
-            <li class="flex items-center gap-2"><span class="text-blue-600 font-bold">✓</span> F&O / Crypto Trading Statements</li>
-            <li class="flex items-center gap-2"><span class="text-blue-600 font-bold">✓</span> Double Taxation Relief (Form 67 / DTAA)</li>
-            <li class="flex items-center gap-2"><span class="text-blue-600 font-bold">✓</span> Bespoke Structural Advisory</li>
+            <li class="flex items-center gap-2"><span class="text-blue-600 font-bold">✓</span> Foreign Stock Schedules (RSUs)</li>
+            <li class="flex items-center gap-2"><span class="text-blue-600 font-bold">✓</span> Double Taxation Relief (DTAA)</li>
+            <li class="flex items-center gap-2"><span class="text-blue-600 font-bold">✓</span> Bespoke Asset Advisory</li>
           </ul>
         </div>
-        <a href="https://wa.me/919873292778?text=Hi%20ITR%20India,%20I%20need%20help%20with%20a%20Complex%20Filing%20(RSUs/F%26O)."
-           target="_blank"
-           class="block text-center bg-gray-900 hover:bg-gray-800 text-white py-3.5 rounded-xl font-semibold transition">
+        <a href="https://wa.me/919873292778?text=Hi%20ITR%20India,%20I%20need%20help%20with%20a%20Complex%20Filing%20(RSUs/Foreign%20Income)."
+           target="_blank" class="block text-center bg-gray-900 hover:bg-gray-800 text-white py-3.5 rounded-xl font-semibold transition">
           Talk to an Expert
         </a>
       </div>
     </div>
+
+    <div id="tab-business" class="tab-content hidden grid md:grid-cols-2 gap-8 max-w-4xl mx-auto items-stretch">
+      <div class="bg-white rounded-3xl border border-gray-100 shadow-sm p-8 flex flex-col justify-between transition hover:shadow-md">
+        <div>
+          <h3 class="text-xl font-bold text-gray-900 mb-2">Presumptive Business (ITR-4)</h3>
+          <p class="text-gray-500 text-sm mb-6">For Freelancers, Consultants, Architects, and Small Businesses optimizing under Sec 44AD/44ADA.</p>
+          <div class="text-4xl font-black text-gray-900 mb-6">₹3,500</div>
+          <ul class="space-y-3.5 text-sm text-gray-600 mb-8 border-t border-gray-100 pt-6">
+            <li class="flex items-center gap-2"><span class="text-blue-600 font-bold">✓</span> Gross Receipt Tax Optimization</li>
+            <li class="flex items-center gap-2"><span class="text-blue-600 font-bold">✓</span> Business Expense Computations</li>
+            <li class="flex items-center gap-2"><span class="text-blue-600 font-bold">✓</span> Complete ITR-4 Form Submission</li>
+          </ul>
+        </div>
+        <a href="https://wa.me/919873292778?text=Hi%20ITR%20India,%20I%20am%20a%20Freelancer/Business%20owner%20and%20want%20to%20file%20ITR-4."
+           target="_blank" class="block text-center bg-gray-900 hover:bg-gray-800 text-white py-3.5 rounded-xl font-semibold transition">
+          File Business ITR
+        </a>
+      </div>
+
+      <div class="bg-white rounded-3xl border border-gray-100 shadow-sm p-8 flex flex-col justify-between transition hover:shadow-md">
+        <div>
+          <h3 class="text-xl font-bold text-gray-900 mb-2">Active Traders (ITR-3)</h3>
+          <p class="text-gray-500 text-sm mb-6">For intensive derivative (F&O) players, intraday equity stock traders, and crypto investors.</p>
+          <div class="text-4xl font-black text-gray-900 mb-6">₹5,000<span class="text-lg font-normal text-gray-400">+</span></div>
+          <ul class="space-y-3.5 text-sm text-gray-600 mb-8 border-t border-gray-100 pt-6">
+            <li class="flex items-center gap-2"><span class="text-blue-600 font-bold">✓</span> F&O Turnovers & Loss Audits</li>
+            <li class="flex items-center gap-2"><span class="text-blue-600 font-bold">✓</span> Intraday vs Delivery Business Mapping</li>
+            <li class="flex items-center gap-2"><span class="text-blue-600 font-bold">✓</span> Complex Multi-broker ITR-3 Processing</li>
+          </ul>
+        </div>
+        <a href="https://wa.me/919873292778?text=Hi%20ITR%20India,%20I%20am%20an%20active%20F%26O/Intraday%20Trader%20and%20need%20to%20file%20ITR-3."
+           target="_blank" class="block text-center bg-gray-900 hover:bg-gray-800 text-white py-3.5 rounded-xl font-semibold transition">
+          Connect with CA
+        </a>
+      </div>
+    </div>
+
   </div>
 </section>
 
@@ -364,6 +405,27 @@
     <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946C.06 5.348 5.397.01 12.008.01c3.202.001 6.212 1.246 8.477 3.514 2.266 2.268 3.507 5.28 3.505 8.484-.004 6.657-5.34 11.997-11.953 11.997-2.005-.001-3.973-.502-5.713-1.457L0 24zm6.59-4.846c1.6.95 3.188 1.449 4.825 1.451 5.436 0 9.86-4.37 9.864-9.799.002-2.623-1.023-5.086-2.885-6.948C16.63 2.016 14.17 1.001 11.55 1c-5.443 0-9.87 4.372-9.874 9.802-.001 1.73.501 3.41 1.453 4.91L2.082 21.4l5.731-1.492.234.146z" />
   </svg>
 </a>
+
+<script>
+  function switchTab(tabId) {
+    // Hide all tab contents
+    document.querySelectorAll('.tab-content').forEach(tab => tab.classList.add('hidden'));
+    
+    // Show clicked tab content
+    document.getElementById(tabId).classList.remove('hidden');
+    
+    // Reset all buttons to inactive styling
+    document.querySelectorAll('.tab-btn').forEach(btn => {
+      btn.classList.remove('bg-blue-600', 'text-white', 'shadow-sm');
+      btn.classList.add('text-gray-600', 'hover:text-gray-900', 'font-semibold');
+    });
+    
+    // Add active styling to clicked button
+    const activeBtn = document.getElementById('btn-' + tabId);
+    activeBtn.classList.add('bg-blue-600', 'text-white', 'shadow-sm');
+    activeBtn.classList.remove('text-gray-600', 'hover:text-gray-900', 'font-semibold');
+  }
+</script>
 
 </body>
 </html>
